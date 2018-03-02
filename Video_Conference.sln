@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video_Conference", "Video_Conference.csproj", "{8BE99BF0-4500-4F2A-8240-81CC192C47DA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VideoStreamServer", "..\VideoStreamServer\VideoStreamServer.vdproj", "{8970A3DB-E8A3-41E6-8D3E-0536D5181A52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE99BF0-4500-4F2A-8240-81CC192C47DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE99BF0-4500-4F2A-8240-81CC192C47DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE99BF0-4500-4F2A-8240-81CC192C47DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE99BF0-4500-4F2A-8240-81CC192C47DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8970A3DB-E8A3-41E6-8D3E-0536D5181A52}.Debug|Any CPU.ActiveCfg = Debug
+		{8970A3DB-E8A3-41E6-8D3E-0536D5181A52}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89B85F15-F775-4574-AEEB-FE3ED23F646B}
+	EndGlobalSection
+EndGlobal
